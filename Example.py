@@ -25,24 +25,15 @@ async def main():
         if not df.columns.any():
             st.warning("Please add headers to the CSV file.")
         else:
-            # Dependent Variable Selection (Radio Button)
-            st.sidebar.header("Select Dependent Variable (Y)")
-            dependent_variable = st.sidebar.radio("Select one dependent variable", df.columns)
-
             # Independent Variables Selection (Checkbox)
             st.sidebar.header("Select Independent Variables (X)")
             independent_variables = st.sidebar.multiselect("Select one or more independent variables", df.columns)
 
-            # Check for duplicate selections
-            if dependent_variable in independent_variables:
-                st.warning("Please ensure the independent and dependent variables are different.")
-            elif not dependent_variable:  # Check if a dependent variable is selected
-                st.warning("Please select a dependent variable.")
-            elif not independent_variables:  # Check if independent variables are selected
+            # Check if at least one independent variable is selected
+            if not independent_variables:
                 st.warning("Please select at least one independent variable.")
             else:
-                # Display selected variables
-                st.write(f"Dependent Variable (Y): {dependent_variable}")
+                # Display selected independent variables
                 st.write(f"Independent Variables (X): {', '.join(independent_variables)}")
 
                 # User Questions and Responses
@@ -55,7 +46,6 @@ async def main():
                         f.write(uploaded_file.read())
 
                     ask = f'''{user_question} \n
-                    Dependent Variable (Y): {dependent_variable} \n
                     Independent Variables (X): {independent_variables} \n
                     CSV file: {uploaded_file.name}
                     '''
@@ -78,7 +68,7 @@ async def main():
                 else:
                     st.warning("Please enter a question to proceed.")
     else:
-        st.warning("Please upload a CSV file and select variables to proceed.")
+        st.warning("Please upload a CSV file and select independent variables to proceed.")
 
 if __name__ == "__main__":
     asyncio.run(main())
