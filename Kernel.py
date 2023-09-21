@@ -7,7 +7,22 @@ import shutil
 import pandas as pd
 import numpy as np
 
-async def make_kernel(memory_name, collection_name, csv_name):
+async def make_kernel():
+    kernel = sk.Kernel()
+
+    endpoint = "https://thirdray-openai-demo-instance-us-east.openai.azure.com"
+    api_key = "917bf6ea50214df7a19a1bf1572aab3d"
+    deployment = 'gpt-4'
+
+    kernel.add_text_completion_service("azureopenaicompletion", AzureChatCompletion(deployment, endpoint, api_key))
+    kernel.add_text_embedding_generation_service("ada", AzureTextEmbedding("text-embedding-ada-002", endpoint, api_key))
+
+    print("Kernel is ready")
+
+    return kernel
+
+
+async def make_kernel_with_memory(memory_name, collection_name, csv_name):
     kernel = sk.Kernel()
 
     endpoint = "https://thirdray-openai-demo-instance-us-east.openai.azure.com"
