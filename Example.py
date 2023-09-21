@@ -5,7 +5,7 @@ import asyncio
 import pandas as pd
 import numpy as np
 from Kernel import make_kernel
-from Planner import CSVPlanner
+from Planner import ForecastingPlanner
 from MarketResearchSkill import CSVForecasting
 
 async def main():
@@ -63,9 +63,9 @@ async def main():
                     print(ask) 
 
                     kernel = await make_kernel() 
-                    kernel.import_skill(CSVForecasting(kernel), "CSVForecasting")
+                    kernel.import_skill(CSVForecasting(), "CSVForecasting")
 
-                    planner = CSVPlanner()
+                    planner = ForecastingPlanner()
                     generated_plan = await planner.create_plan_async(ask, kernel)
                     response = await planner.plan_executor_async(generated_plan, kernel)
 
