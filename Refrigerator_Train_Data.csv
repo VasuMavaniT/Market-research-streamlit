@@ -1,0 +1,301 @@
+Brand,Model,Features,Price,Customer Feedback,Sales Date,Sales Unit,Revenue
+Haier,Model H,Frost-Free,1148.18,4,2021-01-01,2,2296.36
+Electrolux,Model F,"Energy Efficient, Water Dispenser",1489.32,5,2021-01-02,4,5957.28
+Samsung,Model H,"Water Dispenser, Adjustable Shelves, Smart Cooling, Frost-Free, Energy Efficient, Ice Maker",1502.56,1,2021-01-03,6,9015.36
+Frigidaire,Model H,"Adjustable Shelves, Energy Efficient, Water Dispenser, Ice Maker, Smart Cooling, Frost-Free",1224.66,3,2021-01-04,9,11021.94
+Whirlpool,Model A,"Adjustable Shelves, Frost-Free",1201.75,4,2021-01-05,4,4807.0
+Whirlpool,Model D,"Smart Cooling, Water Dispenser, Adjustable Shelves, Ice Maker, Energy Efficient",588.81,5,2021-01-06,7,4121.67
+GE Appliances,Model A,"Ice Maker, Energy Efficient, Adjustable Shelves",1519.72,3,2021-01-07,4,6078.88
+GE Appliances,Model C,Frost-Free,1828.15,4,2021-01-08,5,9140.75
+GE Appliances,Model G,"Adjustable Shelves, Smart Cooling, Frost-Free, Energy Efficient, Ice Maker, Water Dispenser",1808.32,4,2021-01-09,10,18083.2
+Bosch,Model B,"Energy Efficient, Smart Cooling, Ice Maker, Frost-Free, Water Dispenser, Adjustable Shelves",1705.83,3,2021-01-10,9,15352.47
+GE Appliances,Model G,"Smart Cooling, Ice Maker, Frost-Free",561.63,1,2021-01-11,7,3931.41
+Samsung,Model E,"Ice Maker, Smart Cooling",521.91,1,2021-01-12,6,3131.46
+Electrolux,Model F,"Smart Cooling, Ice Maker, Energy Efficient",1408.22,3,2021-01-13,2,2816.44
+LG,Model D,"Energy Efficient, Water Dispenser, Smart Cooling, Adjustable Shelves",1558.51,5,2021-01-14,1,1558.51
+Electrolux,Model C,"Water Dispenser, Adjustable Shelves, Frost-Free, Energy Efficient, Ice Maker",1806.17,1,2021-01-15,9,16255.53
+Electrolux,Model F,"Smart Cooling, Frost-Free, Water Dispenser, Adjustable Shelves",756.99,2,2021-01-16,3,2270.9700000000003
+Electrolux,Model E,"Frost-Free, Energy Efficient, Water Dispenser, Smart Cooling, Ice Maker, Adjustable Shelves",1255.43,3,2021-01-17,10,12554.300000000001
+LG,Model G,"Ice Maker, Adjustable Shelves, Frost-Free, Energy Efficient, Smart Cooling, Water Dispenser",1485.07,1,2021-01-18,10,14850.699999999999
+GE Appliances,Model G,"Energy Efficient, Water Dispenser, Smart Cooling, Ice Maker, Adjustable Shelves, Frost-Free",1795.04,4,2021-01-19,10,17950.4
+Whirlpool,Model F,"Ice Maker, Adjustable Shelves",1649.88,2,2021-01-20,7,11549.16
+Samsung,Model E,Frost-Free,1193.84,2,2021-01-21,4,4775.36
+Electrolux,Model D,"Frost-Free, Water Dispenser, Energy Efficient",1731.97,2,2021-01-22,10,17319.7
+Samsung,Model C,"Water Dispenser, Smart Cooling, Frost-Free, Ice Maker, Adjustable Shelves, Energy Efficient",1605.69,4,2021-01-23,3,4817.07
+GE Appliances,Model E,"Frost-Free, Water Dispenser, Energy Efficient, Ice Maker, Adjustable Shelves, Smart Cooling",1303.52,1,2021-01-24,10,13035.2
+GE Appliances,Model B,Frost-Free,1263.35,1,2021-01-25,4,5053.4
+Haier,Model F,"Energy Efficient, Adjustable Shelves, Water Dispenser",1560.09,4,2021-01-26,5,7800.45
+Whirlpool,Model E,"Frost-Free, Energy Efficient, Ice Maker, Water Dispenser, Smart Cooling, Adjustable Shelves",765.95,5,2021-01-27,5,3829.75
+Haier,Model E,"Adjustable Shelves, Ice Maker, Smart Cooling",1859.98,2,2021-01-28,3,5579.9400000000005
+GE Appliances,Model H,"Energy Efficient, Smart Cooling, Adjustable Shelves",1973.94,4,2021-01-29,4,7895.76
+Electrolux,Model H,"Frost-Free, Water Dispenser, Ice Maker, Smart Cooling",1261.04,4,2021-01-30,5,6305.2
+Electrolux,Model D,"Adjustable Shelves, Ice Maker",1208.64,1,2021-01-31,2,2417.28
+Bosch,Model E,"Energy Efficient, Smart Cooling, Adjustable Shelves, Ice Maker, Frost-Free",1233.86,1,2021-02-01,3,3701.58
+Bosch,Model E,Adjustable Shelves,1845.25,5,2021-02-02,5,9226.25
+Frigidaire,Model G,"Energy Efficient, Adjustable Shelves, Water Dispenser, Ice Maker",1562.6,3,2021-02-03,1,1562.6
+Frigidaire,Model H,"Smart Cooling, Energy Efficient, Water Dispenser",1113.66,4,2021-02-04,7,7795.620000000001
+Bosch,Model G,"Ice Maker, Adjustable Shelves",1417.63,4,2021-02-05,9,12758.670000000002
+Bosch,Model E,"Adjustable Shelves, Frost-Free, Water Dispenser",1070.95,3,2021-02-06,5,5354.75
+LG,Model B,Energy Efficient,1551.22,5,2021-02-07,1,1551.22
+Bosch,Model F,Water Dispenser,945.42,3,2021-02-08,8,7563.36
+Electrolux,Model E,"Frost-Free, Smart Cooling, Water Dispenser, Energy Efficient, Adjustable Shelves, Ice Maker",1486.46,2,2021-02-09,8,11891.68
+Electrolux,Model D,Water Dispenser,1845.86,4,2021-02-10,10,18458.6
+Whirlpool,Model A,"Energy Efficient, Water Dispenser",1426.27,1,2021-02-11,9,12836.43
+Frigidaire,Model E,Adjustable Shelves,670.74,2,2021-02-12,5,3353.7
+Frigidaire,Model G,"Adjustable Shelves, Frost-Free, Ice Maker, Smart Cooling, Energy Efficient, Water Dispenser",1170.76,3,2021-02-13,5,5853.8
+GE Appliances,Model H,"Frost-Free, Smart Cooling, Water Dispenser",1763.11,5,2021-02-14,9,15867.99
+Haier,Model G,"Water Dispenser, Smart Cooling, Frost-Free, Ice Maker, Adjustable Shelves, Energy Efficient",1603.93,3,2021-02-15,3,4811.79
+Whirlpool,Model H,"Adjustable Shelves, Smart Cooling, Ice Maker, Energy Efficient, Water Dispenser",1650.73,4,2021-02-16,2,3301.46
+Whirlpool,Model F,Adjustable Shelves,1786.58,2,2021-02-17,3,5359.74
+Whirlpool,Model G,"Water Dispenser, Ice Maker, Energy Efficient, Smart Cooling",1799.95,1,2021-02-18,9,16199.550000000001
+Whirlpool,Model B,"Water Dispenser, Frost-Free, Energy Efficient, Ice Maker, Smart Cooling",1043.57,4,2021-02-19,10,10435.699999999999
+Samsung,Model C,"Adjustable Shelves, Ice Maker, Energy Efficient, Smart Cooling",1316.53,2,2021-02-20,9,11848.77
+Electrolux,Model C,"Smart Cooling, Ice Maker, Frost-Free, Water Dispenser",884.26,3,2021-02-21,7,6189.82
+Haier,Model G,"Ice Maker, Frost-Free, Adjustable Shelves, Water Dispenser, Energy Efficient, Smart Cooling",582.65,2,2021-02-22,6,3495.8999999999996
+Bosch,Model C,"Ice Maker, Adjustable Shelves",507.07,5,2021-02-23,10,5070.7
+Whirlpool,Model D,"Ice Maker, Adjustable Shelves",1573.08,1,2021-02-24,7,11011.56
+Samsung,Model A,"Adjustable Shelves, Frost-Free, Energy Efficient, Ice Maker, Smart Cooling, Water Dispenser",1380.3,1,2021-02-25,3,4140.9
+GE Appliances,Model D,"Adjustable Shelves, Ice Maker, Frost-Free",1578.15,4,2021-02-26,5,7890.75
+Bosch,Model B,"Water Dispenser, Ice Maker",1799.78,1,2021-02-27,6,10798.68
+Bosch,Model B,"Ice Maker, Smart Cooling, Frost-Free, Water Dispenser",1898.8,2,2021-02-28,6,11392.8
+LG,Model H,Ice Maker,1221.84,1,2021-03-01,6,7331.039999999999
+GE Appliances,Model A,"Frost-Free, Water Dispenser, Energy Efficient, Ice Maker",803.75,3,2021-03-02,6,4822.5
+Frigidaire,Model H,"Water Dispenser, Adjustable Shelves, Smart Cooling",898.93,3,2021-03-03,5,4494.65
+Samsung,Model A,"Adjustable Shelves, Smart Cooling, Ice Maker, Water Dispenser, Energy Efficient, Frost-Free",1401.91,4,2021-03-04,8,11215.28
+GE Appliances,Model B,"Smart Cooling, Frost-Free, Adjustable Shelves",1652.04,1,2021-03-05,1,1652.04
+Whirlpool,Model C,"Smart Cooling, Water Dispenser",839.52,5,2021-03-06,1,839.52
+Frigidaire,Model D,"Water Dispenser, Adjustable Shelves, Frost-Free",1669.49,2,2021-03-07,4,6677.96
+Whirlpool,Model H,"Energy Efficient, Water Dispenser, Smart Cooling, Adjustable Shelves",1180.15,2,2021-03-08,4,4720.6
+Frigidaire,Model A,"Smart Cooling, Water Dispenser",1833.83,4,2021-03-09,10,18338.3
+GE Appliances,Model H,"Energy Efficient, Adjustable Shelves, Water Dispenser, Smart Cooling, Frost-Free",1423.72,3,2021-03-10,6,8542.32
+Samsung,Model C,"Ice Maker, Water Dispenser, Energy Efficient",1729.27,4,2021-03-11,6,10375.619999999999
+Samsung,Model C,Frost-Free,803.29,5,2021-03-12,3,2409.87
+Haier,Model C,"Smart Cooling, Energy Efficient",1769.85,2,2021-03-13,8,14158.8
+Electrolux,Model E,"Frost-Free, Smart Cooling",875.5,5,2021-03-14,9,7879.5
+Bosch,Model A,Water Dispenser,917.45,2,2021-03-15,6,5504.700000000001
+Whirlpool,Model B,"Ice Maker, Smart Cooling, Frost-Free",1455.55,3,2021-03-16,3,4366.65
+Samsung,Model E,"Adjustable Shelves, Water Dispenser",794.09,3,2021-03-17,5,3970.4500000000003
+LG,Model G,Ice Maker,1317.77,1,2021-03-18,1,1317.77
+GE Appliances,Model E,Smart Cooling,966.15,1,2021-03-19,7,6763.05
+Haier,Model B,"Adjustable Shelves, Frost-Free, Smart Cooling",1666.23,3,2021-03-20,4,6664.92
+LG,Model H,"Adjustable Shelves, Frost-Free, Water Dispenser, Energy Efficient",1232.38,3,2021-03-21,2,2464.76
+Bosch,Model D,"Frost-Free, Ice Maker, Water Dispenser, Energy Efficient, Adjustable Shelves",1293.37,5,2021-03-22,4,5173.48
+GE Appliances,Model C,"Frost-Free, Adjustable Shelves, Water Dispenser, Energy Efficient, Ice Maker",1134.73,1,2021-03-23,8,9077.84
+Bosch,Model B,"Adjustable Shelves, Energy Efficient",589.71,2,2021-03-24,4,2358.84
+Electrolux,Model H,"Ice Maker, Water Dispenser, Energy Efficient, Frost-Free, Adjustable Shelves",1159.03,4,2021-03-25,1,1159.03
+Whirlpool,Model B,"Frost-Free, Water Dispenser, Smart Cooling, Energy Efficient, Ice Maker",1073.88,1,2021-03-26,1,1073.88
+Haier,Model E,"Adjustable Shelves, Energy Efficient",1478.29,4,2021-03-27,4,5913.16
+Frigidaire,Model D,"Frost-Free, Ice Maker, Smart Cooling, Energy Efficient, Water Dispenser, Adjustable Shelves",1104.88,3,2021-03-28,10,11048.800000000001
+Whirlpool,Model A,"Adjustable Shelves, Frost-Free, Water Dispenser, Smart Cooling, Energy Efficient",1287.14,2,2021-03-29,10,12871.400000000001
+LG,Model G,"Frost-Free, Adjustable Shelves, Energy Efficient, Water Dispenser",1095.48,1,2021-03-30,2,2190.96
+Electrolux,Model B,"Energy Efficient, Ice Maker, Smart Cooling",1909.57,5,2021-03-31,7,13366.99
+LG,Model G,Adjustable Shelves,534.03,4,2021-04-01,8,4272.24
+Whirlpool,Model E,"Energy Efficient, Water Dispenser, Smart Cooling, Ice Maker, Frost-Free",1725.61,4,2021-04-02,10,17256.1
+Samsung,Model C,Smart Cooling,1608.62,5,2021-04-03,6,9651.72
+Haier,Model E,"Ice Maker, Smart Cooling",1395.34,4,2021-04-04,8,11162.72
+Whirlpool,Model B,"Adjustable Shelves, Smart Cooling, Frost-Free, Ice Maker, Energy Efficient",1807.46,2,2021-04-05,9,16267.14
+GE Appliances,Model C,"Frost-Free, Energy Efficient",501.66,4,2021-04-06,8,4013.28
+Frigidaire,Model D,"Ice Maker, Frost-Free, Smart Cooling, Adjustable Shelves",812.71,2,2021-04-07,7,5688.97
+Whirlpool,Model D,"Water Dispenser, Frost-Free, Smart Cooling",1425.05,1,2021-04-08,8,11400.4
+Whirlpool,Model H,"Smart Cooling, Frost-Free, Ice Maker, Energy Efficient, Adjustable Shelves",896.65,3,2021-04-09,10,8966.5
+Frigidaire,Model E,"Smart Cooling, Water Dispenser, Ice Maker, Frost-Free, Energy Efficient, Adjustable Shelves",617.6,2,2021-04-10,7,4323.2
+Haier,Model A,"Water Dispenser, Smart Cooling, Energy Efficient",1701.39,3,2021-04-11,4,6805.56
+GE Appliances,Model A,"Adjustable Shelves, Ice Maker",1962.5,1,2021-04-12,4,7850.0
+Samsung,Model E,"Ice Maker, Water Dispenser, Energy Efficient",1938.6,4,2021-04-13,10,19386.0
+Whirlpool,Model G,Frost-Free,1538.26,3,2021-04-14,3,4614.78
+Bosch,Model D,"Smart Cooling, Adjustable Shelves, Water Dispenser, Ice Maker, Frost-Free",1413.97,1,2021-04-15,3,4241.91
+Electrolux,Model G,"Smart Cooling, Adjustable Shelves, Energy Efficient, Water Dispenser, Ice Maker, Frost-Free",902.03,5,2021-04-16,5,4510.15
+Samsung,Model G,"Water Dispenser, Frost-Free, Ice Maker, Adjustable Shelves, Smart Cooling, Energy Efficient",964.69,4,2021-04-17,9,8682.210000000001
+LG,Model A,"Frost-Free, Energy Efficient, Ice Maker, Smart Cooling, Adjustable Shelves, Water Dispenser",1908.8,4,2021-04-18,1,1908.8
+Samsung,Model E,"Frost-Free, Adjustable Shelves, Ice Maker, Water Dispenser",621.67,2,2021-04-19,6,3730.0199999999995
+LG,Model B,"Energy Efficient, Adjustable Shelves, Water Dispenser, Ice Maker, Frost-Free, Smart Cooling",1188.1,4,2021-04-20,1,1188.1
+Bosch,Model A,Energy Efficient,1233.04,2,2021-04-21,4,4932.16
+LG,Model C,"Frost-Free, Adjustable Shelves, Smart Cooling, Energy Efficient, Water Dispenser, Ice Maker",1918.66,2,2021-04-22,10,19186.600000000002
+Samsung,Model C,"Smart Cooling, Ice Maker, Water Dispenser, Frost-Free, Energy Efficient",770.75,1,2021-04-23,3,2312.25
+Samsung,Model C,Smart Cooling,547.54,3,2021-04-24,5,2737.7
+Frigidaire,Model H,"Water Dispenser, Frost-Free, Smart Cooling, Energy Efficient",1397.75,2,2021-04-25,7,9784.25
+Haier,Model C,"Smart Cooling, Frost-Free",985.47,3,2021-04-26,2,1970.94
+Electrolux,Model C,"Water Dispenser, Smart Cooling",1229.97,2,2021-04-27,1,1229.97
+Frigidaire,Model D,"Energy Efficient, Ice Maker",1731.37,4,2021-04-28,7,12119.59
+GE Appliances,Model E,Water Dispenser,1073.49,1,2021-04-29,9,9661.41
+Bosch,Model G,"Water Dispenser, Smart Cooling, Frost-Free, Adjustable Shelves, Ice Maker",632.96,5,2021-04-30,2,1265.92
+Whirlpool,Model G,"Water Dispenser, Energy Efficient, Frost-Free",1053.52,1,2021-05-01,1,1053.52
+Haier,Model C,"Water Dispenser, Energy Efficient, Smart Cooling, Frost-Free",1781.94,1,2021-05-02,7,12473.58
+Electrolux,Model D,Adjustable Shelves,1723.2,4,2021-05-03,2,3446.4
+Frigidaire,Model B,"Energy Efficient, Frost-Free",1471.63,2,2021-05-04,8,11773.04
+Bosch,Model E,"Energy Efficient, Water Dispenser, Frost-Free",564.86,3,2021-05-05,10,5648.6
+Electrolux,Model D,"Water Dispenser, Frost-Free, Energy Efficient, Ice Maker",1200.45,4,2021-05-06,8,9603.6
+Bosch,Model C,"Adjustable Shelves, Energy Efficient, Frost-Free",1421.64,2,2021-05-07,2,2843.28
+Electrolux,Model G,Adjustable Shelves,787.43,1,2021-05-08,9,7086.87
+GE Appliances,Model C,"Adjustable Shelves, Energy Efficient",1002.33,3,2021-05-09,6,6013.9800000000005
+Electrolux,Model G,"Frost-Free, Energy Efficient, Ice Maker, Water Dispenser",760.99,3,2021-05-10,1,760.99
+GE Appliances,Model C,"Adjustable Shelves, Smart Cooling, Frost-Free, Water Dispenser, Ice Maker, Energy Efficient",1949.46,1,2021-05-11,7,13646.220000000001
+Haier,Model B,"Frost-Free, Adjustable Shelves, Ice Maker, Smart Cooling, Energy Efficient",1841.02,4,2021-05-12,10,18410.2
+LG,Model B,"Adjustable Shelves, Ice Maker, Smart Cooling, Water Dispenser",1411.54,3,2021-05-13,4,5646.16
+Electrolux,Model B,Adjustable Shelves,1990.56,2,2021-05-14,9,17915.04
+Bosch,Model E,Frost-Free,971.14,5,2021-05-15,1,971.14
+Samsung,Model D,"Frost-Free, Adjustable Shelves, Smart Cooling, Energy Efficient, Ice Maker, Water Dispenser",1106.61,5,2021-05-16,9,9959.49
+Frigidaire,Model D,"Smart Cooling, Frost-Free, Ice Maker, Water Dispenser, Adjustable Shelves",767.52,3,2021-05-17,3,2302.56
+GE Appliances,Model F,"Smart Cooling, Adjustable Shelves",1782.27,4,2021-05-18,7,12475.89
+Bosch,Model D,Water Dispenser,1231.83,4,2021-05-19,9,11086.47
+GE Appliances,Model A,"Energy Efficient, Smart Cooling, Frost-Free",1145.58,1,2021-05-20,3,3436.74
+Frigidaire,Model H,Smart Cooling,596.54,4,2021-05-21,3,1789.62
+Samsung,Model D,Energy Efficient,1158.3,3,2021-05-22,4,4633.2
+Electrolux,Model G,"Frost-Free, Adjustable Shelves, Energy Efficient, Smart Cooling, Ice Maker, Water Dispenser",1899.19,1,2021-05-23,4,7596.76
+Samsung,Model H,"Energy Efficient, Water Dispenser, Ice Maker, Smart Cooling, Frost-Free",1234.15,4,2021-05-24,2,2468.3
+GE Appliances,Model D,"Ice Maker, Water Dispenser",1036.67,2,2021-05-25,7,7256.6900000000005
+Haier,Model E,Smart Cooling,1089.99,1,2021-05-26,4,4359.96
+Electrolux,Model A,"Smart Cooling, Frost-Free, Energy Efficient, Adjustable Shelves",1464.69,4,2021-05-27,2,2929.38
+Electrolux,Model B,"Smart Cooling, Ice Maker, Frost-Free, Adjustable Shelves, Energy Efficient",1654.98,2,2021-05-28,9,14894.82
+Haier,Model H,"Water Dispenser, Ice Maker, Adjustable Shelves, Energy Efficient, Smart Cooling",785.66,4,2021-05-29,3,2356.98
+Electrolux,Model H,"Water Dispenser, Adjustable Shelves, Ice Maker, Energy Efficient, Frost-Free",537.0,3,2021-05-30,1,537.0
+Whirlpool,Model E,Frost-Free,1143.32,4,2021-05-31,5,5716.599999999999
+LG,Model B,"Frost-Free, Water Dispenser, Ice Maker, Adjustable Shelves",1973.13,1,2021-06-01,3,5919.39
+Haier,Model A,Energy Efficient,1284.37,4,2021-06-02,6,7706.219999999999
+LG,Model H,"Frost-Free, Ice Maker, Water Dispenser, Adjustable Shelves",1302.11,5,2021-06-03,1,1302.11
+LG,Model H,"Ice Maker, Adjustable Shelves, Energy Efficient",1284.92,1,2021-06-04,4,5139.68
+Bosch,Model F,"Smart Cooling, Frost-Free, Energy Efficient, Adjustable Shelves",1848.62,5,2021-06-05,1,1848.62
+Bosch,Model H,"Frost-Free, Ice Maker, Energy Efficient, Water Dispenser, Adjustable Shelves",1881.33,1,2021-06-06,10,18813.3
+Electrolux,Model G,"Water Dispenser, Frost-Free",1032.67,1,2021-06-07,10,10326.7
+Haier,Model F,"Adjustable Shelves, Ice Maker, Energy Efficient, Frost-Free, Smart Cooling",989.44,3,2021-06-08,6,5936.64
+Electrolux,Model H,Smart Cooling,1541.47,4,2021-06-09,7,10790.29
+Frigidaire,Model B,"Energy Efficient, Smart Cooling, Frost-Free, Water Dispenser",1365.71,5,2021-06-10,1,1365.71
+Bosch,Model D,"Frost-Free, Water Dispenser",705.02,2,2021-06-11,3,2115.06
+Bosch,Model F,"Ice Maker, Smart Cooling, Frost-Free",1289.34,2,2021-06-12,2,2578.68
+Bosch,Model B,Frost-Free,1293.95,3,2021-06-13,9,11645.550000000001
+Frigidaire,Model E,Adjustable Shelves,662.04,5,2021-06-14,4,2648.16
+Samsung,Model B,Water Dispenser,1719.94,5,2021-06-15,2,3439.88
+Electrolux,Model A,"Adjustable Shelves, Smart Cooling, Frost-Free, Water Dispenser, Ice Maker",1363.31,1,2021-06-16,8,10906.48
+GE Appliances,Model F,"Frost-Free, Adjustable Shelves",1553.89,3,2021-06-17,5,7769.450000000001
+Electrolux,Model B,"Water Dispenser, Smart Cooling, Adjustable Shelves",501.72,1,2021-06-18,7,3512.04
+LG,Model B,"Energy Efficient, Adjustable Shelves, Water Dispenser, Smart Cooling",1486.1,4,2021-06-19,1,1486.1
+Whirlpool,Model E,"Frost-Free, Water Dispenser, Ice Maker, Adjustable Shelves, Energy Efficient, Smart Cooling",906.9,2,2021-06-20,5,4534.5
+Whirlpool,Model B,"Adjustable Shelves, Energy Efficient, Ice Maker",541.65,2,2021-06-21,10,5416.5
+Samsung,Model F,"Ice Maker, Adjustable Shelves, Smart Cooling, Frost-Free",522.09,4,2021-06-22,6,3132.54
+Bosch,Model G,"Water Dispenser, Energy Efficient, Frost-Free, Ice Maker, Smart Cooling, Adjustable Shelves",810.03,3,2021-06-23,2,1620.06
+Samsung,Model E,"Water Dispenser, Ice Maker, Smart Cooling, Energy Efficient, Frost-Free",1856.66,2,2021-06-24,2,3713.32
+Electrolux,Model C,"Frost-Free, Smart Cooling, Adjustable Shelves, Ice Maker",1632.8,3,2021-06-25,3,4898.4
+Haier,Model H,"Adjustable Shelves, Water Dispenser",935.57,3,2021-06-26,4,3742.28
+GE Appliances,Model H,"Frost-Free, Smart Cooling, Energy Efficient, Water Dispenser",1281.14,5,2021-06-27,9,11530.26
+GE Appliances,Model D,"Water Dispenser, Energy Efficient, Frost-Free, Ice Maker, Smart Cooling",1034.72,5,2021-06-28,5,5173.6
+LG,Model D,"Water Dispenser, Energy Efficient, Adjustable Shelves, Ice Maker, Frost-Free",581.55,3,2021-06-29,8,4652.4
+Haier,Model C,"Smart Cooling, Water Dispenser",1123.08,3,2021-06-30,8,8984.64
+LG,Model D,"Adjustable Shelves, Frost-Free",1838.22,3,2021-07-01,10,18382.2
+Samsung,Model E,"Energy Efficient, Water Dispenser, Frost-Free",980.89,2,2021-07-02,8,7847.12
+Electrolux,Model D,"Energy Efficient, Adjustable Shelves, Smart Cooling, Ice Maker, Water Dispenser",1489.09,5,2021-07-03,6,8934.539999999999
+GE Appliances,Model F,"Ice Maker, Energy Efficient, Smart Cooling, Adjustable Shelves",1513.62,3,2021-07-04,8,12108.96
+Frigidaire,Model B,"Adjustable Shelves, Water Dispenser, Smart Cooling",811.0,1,2021-07-05,6,4866.0
+Samsung,Model A,"Smart Cooling, Ice Maker, Adjustable Shelves, Frost-Free",1950.98,3,2021-07-06,5,9754.9
+Whirlpool,Model G,Water Dispenser,1649.81,1,2021-07-07,10,16498.1
+Bosch,Model H,Ice Maker,1945.36,4,2021-07-08,2,3890.72
+Bosch,Model F,"Adjustable Shelves, Water Dispenser, Smart Cooling, Frost-Free, Ice Maker",1799.86,5,2021-07-09,5,8999.3
+Whirlpool,Model E,"Adjustable Shelves, Energy Efficient, Frost-Free, Smart Cooling, Water Dispenser",1731.59,2,2021-07-10,8,13852.72
+GE Appliances,Model F,"Frost-Free, Energy Efficient, Smart Cooling, Adjustable Shelves, Water Dispenser",786.04,1,2021-07-11,5,3930.2
+LG,Model A,"Water Dispenser, Energy Efficient, Adjustable Shelves, Ice Maker",553.01,3,2021-07-12,7,3871.0699999999997
+Bosch,Model A,"Adjustable Shelves, Ice Maker, Smart Cooling, Energy Efficient, Water Dispenser",1140.37,5,2021-07-13,1,1140.37
+Samsung,Model F,"Smart Cooling, Water Dispenser",1825.72,4,2021-07-14,9,16431.48
+Frigidaire,Model C,Smart Cooling,1743.5,4,2021-07-15,4,6974.0
+GE Appliances,Model A,"Energy Efficient, Ice Maker, Smart Cooling, Water Dispenser, Frost-Free",1121.98,5,2021-07-16,8,8975.84
+Bosch,Model B,"Adjustable Shelves, Frost-Free, Water Dispenser",1029.41,5,2021-07-17,6,6176.460000000001
+Electrolux,Model G,"Smart Cooling, Energy Efficient, Water Dispenser, Frost-Free",1662.01,3,2021-07-18,7,11634.07
+Bosch,Model E,"Frost-Free, Ice Maker, Adjustable Shelves, Smart Cooling, Energy Efficient, Water Dispenser",1560.95,4,2021-07-19,1,1560.95
+Samsung,Model F,Energy Efficient,889.7,5,2021-07-20,5,4448.5
+Frigidaire,Model F,"Ice Maker, Smart Cooling, Adjustable Shelves",1593.7,3,2021-07-21,8,12749.6
+Whirlpool,Model F,"Adjustable Shelves, Smart Cooling, Energy Efficient, Ice Maker",1058.55,1,2021-07-22,2,2117.1
+Frigidaire,Model D,"Energy Efficient, Ice Maker",1936.15,4,2021-07-23,2,3872.3
+GE Appliances,Model H,"Energy Efficient, Water Dispenser, Frost-Free",1861.7,4,2021-07-24,7,13031.9
+Frigidaire,Model D,Energy Efficient,611.64,4,2021-07-25,7,4281.48
+Bosch,Model B,"Water Dispenser, Adjustable Shelves, Ice Maker, Energy Efficient, Smart Cooling, Frost-Free",1649.6,4,2021-07-26,3,4948.799999999999
+GE Appliances,Model E,"Energy Efficient, Ice Maker, Water Dispenser, Frost-Free",1706.1,4,2021-07-27,5,8530.5
+Whirlpool,Model C,Smart Cooling,1917.38,2,2021-07-28,1,1917.38
+Bosch,Model E,"Ice Maker, Energy Efficient",510.39,3,2021-07-29,2,1020.78
+Electrolux,Model G,Frost-Free,808.3,5,2021-07-30,4,3233.2
+Samsung,Model A,"Frost-Free, Smart Cooling, Adjustable Shelves, Ice Maker, Energy Efficient",698.06,3,2021-07-31,8,5584.48
+LG,Model C,"Energy Efficient, Adjustable Shelves, Ice Maker, Water Dispenser",1763.7,5,2021-08-01,8,14109.6
+Bosch,Model D,"Frost-Free, Smart Cooling, Ice Maker",1106.61,1,2021-08-02,6,6639.66
+Electrolux,Model G,"Adjustable Shelves, Smart Cooling, Ice Maker",772.43,4,2021-08-03,1,772.43
+Frigidaire,Model B,Ice Maker,1288.99,2,2021-08-04,8,10311.92
+Bosch,Model D,Energy Efficient,1149.97,4,2021-08-05,8,9199.76
+Bosch,Model A,Water Dispenser,1586.42,1,2021-08-06,2,3172.84
+Whirlpool,Model F,"Adjustable Shelves, Smart Cooling, Water Dispenser, Energy Efficient",735.34,1,2021-08-07,2,1470.68
+Samsung,Model F,"Energy Efficient, Water Dispenser, Ice Maker, Adjustable Shelves, Smart Cooling, Frost-Free",1273.33,1,2021-08-08,1,1273.33
+LG,Model H,"Adjustable Shelves, Smart Cooling, Frost-Free, Ice Maker",1069.74,5,2021-08-09,4,4278.96
+LG,Model E,"Smart Cooling, Energy Efficient, Adjustable Shelves, Frost-Free, Ice Maker, Water Dispenser",1924.42,4,2021-08-10,2,3848.84
+GE Appliances,Model F,"Frost-Free, Adjustable Shelves, Water Dispenser, Energy Efficient, Smart Cooling",1711.08,3,2021-08-11,3,5133.24
+Haier,Model E,Water Dispenser,1779.53,3,2021-08-12,8,14236.24
+Electrolux,Model A,Ice Maker,884.84,1,2021-08-13,10,8848.4
+Frigidaire,Model F,"Ice Maker, Frost-Free, Water Dispenser, Energy Efficient",1986.0,5,2021-08-14,4,7944.0
+Whirlpool,Model D,"Energy Efficient, Adjustable Shelves, Frost-Free",789.38,5,2021-08-15,3,2368.14
+Samsung,Model E,"Smart Cooling, Frost-Free",784.53,4,2021-08-16,3,2353.59
+Bosch,Model H,"Smart Cooling, Adjustable Shelves, Frost-Free, Ice Maker",916.27,1,2021-08-17,6,5497.62
+Electrolux,Model A,Energy Efficient,1221.68,1,2021-08-18,9,10995.12
+GE Appliances,Model G,Smart Cooling,1543.01,2,2021-08-19,6,9258.06
+Samsung,Model D,"Energy Efficient, Adjustable Shelves",890.23,2,2021-08-20,10,8902.3
+Haier,Model E,"Ice Maker, Adjustable Shelves, Frost-Free, Energy Efficient",690.85,3,2021-08-21,5,3454.25
+Frigidaire,Model F,"Frost-Free, Adjustable Shelves, Water Dispenser, Energy Efficient",1639.85,1,2021-08-22,8,13118.8
+LG,Model B,"Smart Cooling, Energy Efficient, Frost-Free, Ice Maker, Adjustable Shelves, Water Dispenser",727.44,2,2021-08-23,1,727.44
+Whirlpool,Model E,"Frost-Free, Energy Efficient, Adjustable Shelves, Ice Maker",1029.65,5,2021-08-24,3,3088.9500000000003
+Whirlpool,Model H,Water Dispenser,999.5,2,2021-08-25,2,1999.0
+Samsung,Model E,"Frost-Free, Smart Cooling, Adjustable Shelves, Water Dispenser, Energy Efficient, Ice Maker",1290.36,4,2021-08-26,1,1290.36
+Haier,Model E,"Water Dispenser, Smart Cooling, Ice Maker",1300.64,5,2021-08-27,1,1300.64
+Whirlpool,Model G,"Adjustable Shelves, Water Dispenser",1704.55,5,2021-08-28,6,10227.3
+Samsung,Model D,"Frost-Free, Smart Cooling, Water Dispenser, Adjustable Shelves, Ice Maker",783.62,5,2021-08-29,8,6268.96
+Bosch,Model H,"Energy Efficient, Smart Cooling, Frost-Free",640.97,1,2021-08-30,10,6409.700000000001
+Electrolux,Model H,"Water Dispenser, Adjustable Shelves, Ice Maker, Energy Efficient",550.48,2,2021-08-31,2,1100.96
+Frigidaire,Model A,"Adjustable Shelves, Smart Cooling, Water Dispenser",1300.15,3,2021-09-01,1,1300.15
+Samsung,Model B,"Frost-Free, Energy Efficient, Water Dispenser, Adjustable Shelves, Smart Cooling",1464.77,5,2021-09-02,5,7323.85
+Bosch,Model F,"Ice Maker, Smart Cooling, Energy Efficient",1320.0,1,2021-09-03,4,5280.0
+LG,Model E,"Ice Maker, Frost-Free, Smart Cooling, Energy Efficient, Adjustable Shelves",1459.26,5,2021-09-04,1,1459.26
+Electrolux,Model A,"Adjustable Shelves, Smart Cooling",1056.25,4,2021-09-05,10,10562.5
+Frigidaire,Model H,"Adjustable Shelves, Energy Efficient, Water Dispenser, Ice Maker, Frost-Free",1636.42,2,2021-09-06,7,11454.94
+Bosch,Model F,"Adjustable Shelves, Frost-Free, Energy Efficient, Ice Maker",828.1,3,2021-09-07,4,3312.4
+Frigidaire,Model E,"Ice Maker, Water Dispenser, Energy Efficient, Frost-Free, Adjustable Shelves, Smart Cooling",661.09,4,2021-09-08,9,5949.81
+GE Appliances,Model F,"Smart Cooling, Energy Efficient, Adjustable Shelves, Ice Maker, Frost-Free, Water Dispenser",1535.52,4,2021-09-09,4,6142.08
+Frigidaire,Model H,Water Dispenser,1703.52,1,2021-09-10,4,6814.08
+LG,Model D,"Water Dispenser, Frost-Free, Energy Efficient",850.54,3,2021-09-11,3,2551.62
+Haier,Model C,"Ice Maker, Water Dispenser, Adjustable Shelves, Frost-Free, Energy Efficient",920.85,5,2021-09-12,10,9208.5
+Electrolux,Model C,"Energy Efficient, Adjustable Shelves",1366.97,2,2021-09-13,4,5467.88
+Samsung,Model F,"Smart Cooling, Energy Efficient, Ice Maker, Water Dispenser, Adjustable Shelves, Frost-Free",819.11,1,2021-09-14,3,2457.33
+Samsung,Model B,"Smart Cooling, Frost-Free, Energy Efficient",1716.33,1,2021-09-15,2,3432.66
+Haier,Model H,"Frost-Free, Energy Efficient, Smart Cooling, Ice Maker",1489.07,3,2021-09-16,3,4467.21
+Bosch,Model D,"Energy Efficient, Frost-Free",1801.67,3,2021-09-17,6,10810.02
+Bosch,Model D,"Energy Efficient, Frost-Free, Smart Cooling, Adjustable Shelves, Water Dispenser, Ice Maker",1399.66,4,2021-09-18,6,8397.960000000001
+Haier,Model E,"Smart Cooling, Frost-Free",1530.6,5,2021-09-19,4,6122.4
+Electrolux,Model F,Energy Efficient,1805.14,5,2021-09-20,9,16246.26
+LG,Model H,"Ice Maker, Energy Efficient",1431.73,4,2021-09-21,6,8590.380000000001
+Whirlpool,Model H,"Water Dispenser, Smart Cooling, Frost-Free, Energy Efficient, Ice Maker, Adjustable Shelves",1133.83,1,2021-09-22,5,5669.15
+Frigidaire,Model A,"Frost-Free, Smart Cooling, Adjustable Shelves, Ice Maker, Water Dispenser",846.67,3,2021-09-23,7,5926.69
+Whirlpool,Model G,"Ice Maker, Adjustable Shelves, Water Dispenser, Smart Cooling, Energy Efficient",1110.68,1,2021-09-24,3,3332.04
+Frigidaire,Model F,Water Dispenser,1913.91,4,2021-09-25,10,19139.100000000002
+Frigidaire,Model A,"Smart Cooling, Ice Maker, Energy Efficient, Frost-Free, Water Dispenser, Adjustable Shelves",1391.08,5,2021-09-26,9,12519.72
+Whirlpool,Model E,"Adjustable Shelves, Frost-Free, Energy Efficient, Water Dispenser, Ice Maker, Smart Cooling",576.14,5,2021-09-27,7,4032.98
+Samsung,Model B,"Smart Cooling, Ice Maker, Energy Efficient, Frost-Free, Water Dispenser",1241.3,4,2021-09-28,4,4965.2
+Whirlpool,Model C,"Frost-Free, Smart Cooling, Energy Efficient, Water Dispenser, Adjustable Shelves",1507.47,3,2021-09-29,3,4522.41
+Bosch,Model G,"Frost-Free, Smart Cooling, Ice Maker, Energy Efficient",1567.47,2,2021-09-30,4,6269.88
+Whirlpool,Model D,Frost-Free,622.56,1,2021-10-01,9,5603.039999999999
+Electrolux,Model C,"Water Dispenser, Adjustable Shelves",1609.4,2,2021-10-02,8,12875.2
+LG,Model C,Adjustable Shelves,514.54,2,2021-10-03,4,2058.16
+Electrolux,Model A,"Water Dispenser, Energy Efficient, Frost-Free, Ice Maker, Smart Cooling",1732.29,4,2021-10-04,3,5196.87
+LG,Model D,"Smart Cooling, Frost-Free, Adjustable Shelves, Ice Maker, Water Dispenser, Energy Efficient",1194.83,5,2021-10-05,5,5974.15
+LG,Model G,"Ice Maker, Adjustable Shelves, Smart Cooling",682.95,5,2021-10-06,3,2048.8500000000004
+Haier,Model C,"Water Dispenser, Frost-Free",1848.09,4,2021-10-07,7,12936.63
+Bosch,Model F,"Smart Cooling, Ice Maker, Water Dispenser, Adjustable Shelves, Energy Efficient, Frost-Free",851.66,4,2021-10-08,3,2554.98
+GE Appliances,Model E,"Smart Cooling, Adjustable Shelves, Ice Maker, Energy Efficient",706.14,5,2021-10-09,3,2118.42
+Frigidaire,Model B,"Energy Efficient, Water Dispenser, Frost-Free",847.47,2,2021-10-10,1,847.47
+Electrolux,Model H,Frost-Free,961.61,1,2021-10-11,10,9616.1
+Whirlpool,Model H,"Frost-Free, Energy Efficient, Adjustable Shelves, Ice Maker, Smart Cooling, Water Dispenser",1282.06,3,2021-10-12,10,12820.599999999999
+GE Appliances,Model F,"Water Dispenser, Smart Cooling, Adjustable Shelves, Energy Efficient",1485.07,1,2021-10-13,6,8910.42
+Electrolux,Model D,"Ice Maker, Energy Efficient",1553.22,3,2021-10-14,10,15532.2
+Frigidaire,Model D,"Smart Cooling, Ice Maker, Energy Efficient, Water Dispenser, Frost-Free, Adjustable Shelves",1844.73,2,2021-10-15,9,16602.57
+Samsung,Model G,"Water Dispenser, Smart Cooling, Adjustable Shelves, Energy Efficient, Ice Maker",1299.92,4,2021-10-16,3,3899.76
+Electrolux,Model E,"Frost-Free, Ice Maker, Adjustable Shelves",1875.11,2,2021-10-17,1,1875.11
+Haier,Model D,"Frost-Free, Energy Efficient, Water Dispenser, Adjustable Shelves, Ice Maker",1268.49,1,2021-10-18,4,5073.96
+Frigidaire,Model D,Energy Efficient,847.48,3,2021-10-19,1,847.48
+Samsung,Model E,"Adjustable Shelves, Smart Cooling, Ice Maker, Energy Efficient",1259.46,4,2021-10-20,8,10075.68
+GE Appliances,Model F,"Energy Efficient, Adjustable Shelves, Ice Maker, Water Dispenser, Frost-Free",766.18,4,2021-10-21,3,2298.54
+Haier,Model A,"Frost-Free, Adjustable Shelves, Smart Cooling, Water Dispenser",1341.13,4,2021-10-22,3,4023.3900000000003
+Samsung,Model F,"Frost-Free, Energy Efficient, Ice Maker",1709.13,1,2021-10-23,1,1709.13
+Bosch,Model E,"Water Dispenser, Energy Efficient, Smart Cooling",1495.81,1,2021-10-24,2,2991.62
+GE Appliances,Model B,"Water Dispenser, Ice Maker, Smart Cooling, Energy Efficient, Adjustable Shelves",1396.9,1,2021-10-25,7,9778.300000000001
+Samsung,Model G,"Smart Cooling, Energy Efficient, Frost-Free, Adjustable Shelves, Water Dispenser, Ice Maker",940.77,5,2021-10-26,5,4703.85
+Haier,Model E,"Water Dispenser, Adjustable Shelves, Energy Efficient",582.66,1,2021-10-27,4,2330.64

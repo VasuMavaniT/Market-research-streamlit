@@ -57,11 +57,12 @@ async def main():
 
                     planner = ForecastingPlanner()
                     generated_plan = await planner.create_plan_async(ask, kernel)
-                    response = await planner.plan_executor_async(generated_plan, kernel)
+                    response_csv_data = await planner.plan_executor_async(generated_plan, kernel)
 
-                    # response = "This is a sample response to your question."
-                    st.subheader("Response")
-                    st.write(response)
+                    # Display the CSV data in a scrollable window
+                    st.subheader("Response (CSV Data)")
+                    df = pd.read_csv(response_csv_data)
+                    st.dataframe(df)
 
                     # Hide the data summary
                     st.markdown("---")  # Add a horizontal line to separate sections
