@@ -7,6 +7,22 @@ import numpy as np
 from Kernel import make_kernel
 from Planner import ForecastingPlanner
 from MarketResearchSkill import CSVForecasting
+import matplotlib.pyplot as plt
+import io
+import json
+
+def get_plot(plot_string):
+    # Convert the hexadecimal string back to binary data
+    plot_binary_data = bytes.fromhex(plot_string)
+
+    # Create a BytesIO stream from the binary data
+    plot_binary_stream = io.BytesIO(plot_binary_data)
+    
+    # Read the plot from the stream and show it
+    plot = plt.imread(plot_binary_stream)
+    plt.imshow(plot)
+    plt.axis('off')  # Turn off axis labels and ticks
+    return plt
 
 async def main():
 
@@ -57,12 +73,22 @@ async def main():
 
                     planner = ForecastingPlanner()
                     generated_plan = await planner.create_plan_async(ask, kernel)
-                    response_csv_data = await planner.plan_executor_async(generated_plan, kernel)
+                    output = await planner.plan_executor_async(generated_plan, kernel)
+
+                    dictionary = json.loads(output)
+                    response_csv_data = dictionary['csv']
+
+                    plot_string = dictionary['plot']
+                    plot_obj = get_plot(plot_string)
 
                     # Display the CSV data in a scrollable window
                     st.subheader("Response (CSV Data)")
                     df = pd.read_csv(response_csv_data)
                     st.dataframe(df)
+
+                    # Show the graph using st.pyplot()
+                    st.subheader("Graph")
+                    st.pyplot(plot_obj)
 
                     # Hide the data summary
                     st.markdown("---")  # Add a horizontal line to separate sections

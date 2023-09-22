@@ -1,5 +1,8 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import io
+import json
 
 def sales_prediction(csv_file, y, X, months):
     sales_df = pd.read_csv('Sales.csv')
@@ -15,7 +18,9 @@ def sales_prediction(csv_file, y, X, months):
     # Write dataframe to csv file sales_output.csv
     filtered_sales_df.to_csv(csv_name, index=False)
 
-    return csv_name
+    output = create_line_chart(csv_name, 'Timestamp', 'Sales', 'Sales Forecasting', 'Timestamp', 'Sales')
+
+    return output
 
 def price_prediction(csv_file, y, X, months):
     price_df = pd.read_csv('Price.csv')
@@ -30,7 +35,9 @@ def price_prediction(csv_file, y, X, months):
     # Write dataframe to csv file price_output.csv
     filtered_price_df.to_csv(csv_name, index=False)
 
-    return csv_name
+    output = create_line_chart(csv_name, 'Timestamp', 'Price', 'Price Forecasting', 'Timestamp', 'Price')
+
+    return output
 
 def revenue_prediction(csv_file, y, X, months):
     revenue_df = pd.read_csv('Revenue.csv')
@@ -46,4 +53,43 @@ def revenue_prediction(csv_file, y, X, months):
     # Write dataframe to csv file revenue_output.csv
     filtered_revenue_df.to_csv(csv_name, index=False)
 
-    return csv_name
+    output = create_line_chart(csv_name, 'Timestamp', 'Revenue', 'Revenue Forecasting', 'Timestamp', 'Revenue')
+
+    return output
+
+def create_line_chart(csv_file, timestamp, data, title, xlabel, ylabel):
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv(csv_file)
+
+    # Extract timestamp and price columns
+    timestamps = df[timestamp]
+    datacol = df[data]
+
+    # Create a line chart
+    plt.figure(figsize=(10, 6))  # Set the figure size (optional)
+    plt.plot(timestamps, datacol, marker='o', linestyle='-', color='b')
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.title(title)
+
+    # Save the plot to a binary stream
+    plot_binary_stream = io.BytesIO()
+    plt.savefig(plot_binary_stream, format='png')
+    
+    # Reset the stream position and read it as binary data
+    plot_binary_stream.seek(0)
+    plot_binary_data = plot_binary_stream.read()
+    
+    # Close the plot and the binary stream
+    plt.close()
+    plot_binary_stream.close()
+    
+    # Convert the binary data to a string
+    plot_string = plot_binary_data.hex()
+
+    out_dict = {'csv': csv_file, 'plot': plot_string}
+
+    out = json.dumps(out_dict)
+
+    # Return the plot as a hexadecimal string
+    return out
