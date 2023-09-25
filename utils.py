@@ -71,7 +71,7 @@ def create_line_chart(csv_file, timestamp, data, title, xlabel, ylabel):
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.title(title)
-    plt.xticks(rotation=90)  # Rotate X-axis ticks by 45 degrees
+    plt.xticks(rotation=90)  
 
     # Save the plot to a binary stream
     plot_binary_stream = io.BytesIO()
