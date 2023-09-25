@@ -10,7 +10,7 @@ def sales_prediction(csv_file, y, X, months):
     sales_df['Timestamp'] = pd.to_datetime(sales_df['Timestamp'])
 
     end_date = max(sales_df['Timestamp'])
-    start_date = end_date - pd.DateOffset(months=months-1)
+    start_date = end_date - pd.DateOffset(months=months)
 
     filtered_sales_df = sales_df[(sales_df['Timestamp'] >= start_date) & (sales_df['Timestamp'] <= end_date)]
 
@@ -28,7 +28,7 @@ def price_prediction(csv_file, y, X, months):
     price_df['Timestamp'] = pd.to_datetime(price_df['Timestamp'])
 
     end_date = max(price_df['Timestamp'])
-    start_date = end_date - pd.DateOffset(months=months-1)
+    start_date = end_date - pd.DateOffset(months=months)
 
     filtered_price_df = price_df[(price_df['Timestamp'] >= start_date) & (price_df['Timestamp'] <= end_date)]
     csv_name = 'price_output.csv'
@@ -45,7 +45,7 @@ def revenue_prediction(csv_file, y, X, months):
     revenue_df['Timestamp'] = pd.to_datetime(revenue_df['Timestamp'])
 
     end_date = max(revenue_df['Timestamp'])
-    start_date = end_date - pd.DateOffset(months=months-1)
+    start_date = end_date - pd.DateOffset(months=months)
 
     filtered_revenue_df = revenue_df[(revenue_df['Timestamp'] >= start_date) & (revenue_df['Timestamp'] <= end_date)]
 
@@ -71,6 +71,7 @@ def create_line_chart(csv_file, timestamp, data, title, xlabel, ylabel):
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.title(title)
+    plt.xticks(rotation=90)  # Rotate X-axis ticks by 45 degrees
 
     # Save the plot to a binary stream
     plot_binary_stream = io.BytesIO()
