@@ -83,6 +83,15 @@ async def main():
 
                     # Display the CSV data in a scrollable window
                     st.subheader("Response (CSV Data)")
+
+                    with open(response_csv_data, "rb") as file:
+                        st.download_button(
+                            label="Download CSV",
+                            data=file,
+                            file_name=response_csv_data,
+                            key="download-file"
+                        )
+
                     df = pd.read_csv(response_csv_data)
                     st.dataframe(df)
 
