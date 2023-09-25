@@ -75,6 +75,9 @@ class ForecastingPlanner:
     kernel: Kernel,
     prompt: str = PROMPT,
   ) -> Plan:
+    ''' Generate a plan for the given goal using the given kernel.
+    Generated plan is a JSON string as shown in the example.
+    '''
     
     # Create the semantic function for planner
     planner = kernel.create_semantic_function(
@@ -93,14 +96,20 @@ class ForecastingPlanner:
     # return Plan(prompt=prompt, goal=goal, plan=generated_plan)
 
   async def plan_executor_async(self, plan, kernel: Kernel) -> str:
+    ''' It returns the result of the plan execution by calling
+    parse_task function and passing the task to it.
+    '''
     generated_plan = json.loads(plan)
     task = generated_plan["subtasks"]
     result = await self.parse_task_break_even(task, kernel)
     return result
   
   async def parse_task_break_even(self, tasks, kernel) -> str:
-    print("Value of tasks inside parse: ", str(tasks))
-    print("Type of tasks inside parse: ", type(tasks))
+    ''' Parse the task and execute it using the given kernel.
+    It returns the result of the task execution. 
+    Skill name and function are extracted from the task and
+    the function is invoked using the kernel.
+    '''
     try:
       task = json.loads(tasks)
     except:
@@ -114,39 +123,7 @@ class ForecastingPlanner:
     context = ContextVariables()
     if args:
       for key, value in args.items():
-        # if isinstance(value, dict) or isinstance(value, list):
-        #   value = await self.parse_task_break_even(value, kernel)
         context[key] = value
 
     output = await sk_function.invoke_async(variables=context)
-    print("Output is: ")
-    print(output)
-    return output.result
-
-  async def execute_plan_async(self, plan, kernel: Kernel) -> str:
-    generated_plan = json.loads(plan)
-    print("Value of generated plan: ", str(generated_plan))
-    task = generated_plan["subtasks"]
-    result = await self.parse_task(task, kernel)
-    return result
-
-  async def parse_task(self, task, kernel) -> str:
-    if isinstance(task, str):
-      return task
-
-    if isinstance(task, list):
-      result_list = [await self.parse_task(t, kernel) for t in task]
-      return " ".join(result_list)
-        
-    print("Value of task: ", str(task)) 
-    skill_name, function_name = task["function"].split(".")
-    sk_function = kernel.skills.get_function(skill_name, function_name)
-    args = task.get("args", None)
-    context = ContextVariables()
-    if args:
-      for key, value in args.items():
-        context[key] = value
-    output = await sk_function.invoke_async(variables=context)
-    print("Output is: ")
-    print(output)
     return output.result

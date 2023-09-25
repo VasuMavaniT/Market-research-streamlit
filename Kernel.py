@@ -8,6 +8,9 @@ import pandas as pd
 import numpy as np
 
 async def make_kernel():
+    '''This function creates an semantic kernel 
+    and adds text completion and text embedding generation services to kernel.
+    '''
     kernel = sk.Kernel()
 
     endpoint = "https://thirdray-openai-demo-instance-us-east.openai.azure.com"
@@ -23,6 +26,11 @@ async def make_kernel():
 
 
 async def make_kernel_with_memory(memory_name, collection_name, csv_name):
+    '''This function creates an semantic kernel 
+    and adds text completion and text embedding generation services to kernel.
+    It also creates a Chroma memory stores with the name memory_name and
+    saves the csv file with the name csv_name to the memory store with the name collection_name.
+    '''
     kernel = sk.Kernel()
 
     endpoint = "https://thirdray-openai-demo-instance-us-east.openai.azure.com"

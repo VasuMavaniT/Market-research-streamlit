@@ -12,6 +12,10 @@ import io
 import json
 
 def get_plot(plot_string):
+    ''' It Converts the hexadecimal string to binary data, then 
+    creates a BytesIO stream from the binary data, then
+    reads the plot from the stream and shows it.
+    '''
     # Convert the hexadecimal string back to binary data
     plot_binary_data = bytes.fromhex(plot_string)
 

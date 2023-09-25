@@ -7,13 +7,16 @@ class CSVForecasting:
     # def __init__(self, kernel: Kernel):
     #     self.kernel = kernel
     # Required if memory search is used
-    # Initialize the skill with the kernel as a parameter
+    # to Initialize the skill with the kernel as a parameter
 
     @sk_function(
     description="Forecast the value of sales based on dependent and independent variables with csv file",
     name="sales"
     )
     def sales(self, context: sk.SKContext) -> str:
+        '''Try to get values from the context object
+        and pass them to the sales_prediction function.
+        '''
         csv_path = context.variables.get("csv_path")
         dependent_variable = context.variables.get("dependent_variable")
         independent_variable = context.variables.get("independent_variable")
@@ -31,6 +34,9 @@ class CSVForecasting:
         name="price"
     )
     def price(self, context: sk.SKContext) -> str:
+        ''' Try to get values from the context object
+        and pass them to the price_prediction function.
+        '''
         csv_path = context.variables.get("csv_path")
         dependent_variable = context.variables.get("dependent_variable")
         independent_variable = context.variables.get("independent_variable")
@@ -48,6 +54,9 @@ class CSVForecasting:
         name="revenue"
     )
     def revenue(self, context: sk.SKContext) -> str:
+        ''' Try to get values from the context object
+        and pass them to the revenue_prediction function.
+        '''
         csv_path = context.variables.get("csv_path")
         dependent_variable = context.variables.get("dependent_variable")
         independent_variable = context.variables.get("independent_variable")

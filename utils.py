@@ -5,6 +5,9 @@ import io
 import json
 
 def sales_prediction(csv_file, y, X, months):
+    ''' This function takes in a csv file, dependent variable, independent variable, and duration in months.
+    It returns a string object of json object with csv file and plot object.
+    '''
     sales_df = pd.read_csv('Sales.csv')
 
     sales_df['Timestamp'] = pd.to_datetime(sales_df['Timestamp'])
@@ -23,6 +26,9 @@ def sales_prediction(csv_file, y, X, months):
     return output
 
 def price_prediction(csv_file, y, X, months):
+    ''' This function takes in a csv file, dependent variable, independent variable, and duration in months.
+    It returns a string object of json object with csv file and plot object.
+    '''
     price_df = pd.read_csv('Price.csv')
 
     price_df['Timestamp'] = pd.to_datetime(price_df['Timestamp'])
@@ -40,6 +46,9 @@ def price_prediction(csv_file, y, X, months):
     return output
 
 def revenue_prediction(csv_file, y, X, months):
+    ''' This function takes in a csv file, dependent variable, independent variable, and duration in months.
+    It returns a string object of json object with csv file and plot object.
+    '''
     revenue_df = pd.read_csv('Revenue.csv')
 
     revenue_df['Timestamp'] = pd.to_datetime(revenue_df['Timestamp'])
@@ -58,6 +67,10 @@ def revenue_prediction(csv_file, y, X, months):
     return output
 
 def create_line_chart(csv_file, timestamp, data, title, xlabel, ylabel):
+    ''' This function takes in a csv file, timestamp, data, title, xlabel, and ylabel.
+    It returns a string object of json object with csv file and plot object.
+    It creates a line chart and saves it to a binary stream.
+    '''
     # Read the CSV file into a DataFrame
     df = pd.read_csv(csv_file)
 
