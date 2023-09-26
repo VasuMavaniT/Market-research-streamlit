@@ -79,32 +79,39 @@ async def main():
                     generated_plan = await planner.create_plan_async(ask, kernel)
                     output = await planner.plan_executor_async(generated_plan, kernel)
 
-                    dictionary = json.loads(output)
-                    response_csv_data = dictionary['csv']
+                    try:
+                        dictionary = json.loads(output)
 
-                    plot_string = dictionary['plot']
-                    plot_obj = get_plot(plot_string)
+                        plot_string = dictionary['plot']
+                        plot_obj = get_plot(plot_string)
 
-                    # Display the CSV data in a scrollable window
-                    st.subheader("Response (CSV Data)")
+                        # Check if csv key exists in the dictionary
+                        if 'csv' in dictionary:
+                            response_csv_data = dictionary['csv']
+                            # Display the CSV data in a scrollable window
+                            st.subheader("Response (CSV Data)")
 
-                    with open(response_csv_data, "rb") as file:
-                        st.download_button(
-                            label="Download CSV",
-                            data=file,
-                            file_name=response_csv_data,
-                            key="download-file"
-                        )
+                            with open(response_csv_data, "rb") as file:
+                                st.download_button(
+                                    label="Download CSV",
+                                    data=file,
+                                    file_name=response_csv_data,
+                                    key="download-file"
+                                )
 
-                    df = pd.read_csv(response_csv_data)
-                    st.dataframe(df)
+                            df = pd.read_csv(response_csv_data)
+                            st.dataframe(df)
 
-                    # Show the graph using st.pyplot()
-                    st.subheader("Graph")
-                    st.pyplot(plot_obj)
+                        # Show the graph using st.pyplot()
+                        st.subheader("Graph")
+                        st.pyplot(plot_obj)
 
-                    # Hide the data summary
-                    st.markdown("---")  # Add a horizontal line to separate sections
+                        # Hide the data summary
+                        st.markdown("---")  # Add a horizontal line to separate sections
+                    except:
+                        # Show output as text
+                        st.subheader("Response")
+                        st.write(output)
                 else:
                     st.warning("Please enter a question to proceed.")
     else:

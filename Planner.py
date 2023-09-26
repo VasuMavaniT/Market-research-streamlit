@@ -6,7 +6,7 @@ from semantic_kernel.planning.plan import Plan
 
 PROMPT = """
 
-NOTE: CSVForecasting has only 3 functions: sales, price and revenue.
+NOTE: CSVForecasting has only 4 functions: sales, price, revenue and get_break_even_point.
 
 [GOAL]
 Predict or forecast the value of sales based on dependent and independent variables with csv file for a given period
@@ -19,8 +19,8 @@ Predict or forecast the value of sales based on dependent and independent variab
     "args":
     {
         "csv_path": "Temp_file.csv",
-        "dependent_variable": "Your dependent variable here in a list [A, B, C]",
-        "independent_variable": "Your independent variable here",
+        "dependent_variable": "Your dependent variable here",
+        "independent_variable": "Your independent variable here [A, B, C] in a list of double quote string",
         "duration": "Your duration here in months (Integer)"
     }
   }
@@ -37,8 +37,8 @@ Predict or forecast the value of price for different time periods based on depen
       "args":
       {
         "csv_path": "Temp_file.csv",
-        "dependent_variable": "Your dependent variable here in a list [A, B, C]",
-        "independent_variable": "Your independent variable here",
+        "dependent_variable": "Your dependent variable here",
+        "independent_variable": "Your independent variable here [A, B, C] in a list of double quote string",
         "duration": "Your duration here in months (Integer)"
       }
     }
@@ -55,9 +55,26 @@ Predict or forecast the value of revenue based on dependent and independent vari
       "args":
       {
         "csv_path": "Temp_file.csv",
-        "dependent_variable": "Your dependent variable here in a list [A, B, C]",
-        "independent_variable": "Your independent variable here",
+        "dependent_variable": "Your dependent variable here",
+        "independent_variable": "Your independent variable here [A, B, C] in a list of double quote string",
         "duration": "Your duration here in months (Integer)"
+      }
+    }
+}
+
+[GOAL]
+Calculate break-even point based on revenue values with timestamp and initial investment
+[OUTPUT]
+{
+  "input": "Calculate break-even point based on revenue values with timestamp and initial investment",
+  "subtasks":
+    {
+      "function": "CSVForecasting.get_break_even_point",
+      "args":
+      {
+        "csv_path": "Temp_file.csv",
+        "initial_investment": "Your initial investment here",
+        "independent_variable": "Your independent variable here [A, B, C] in a list of double quote string",
       }
     }
 }

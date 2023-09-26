@@ -1,6 +1,6 @@
 from semantic_kernel.skill_definition import sk_function
 import semantic_kernel as sk
-from utils import sales_prediction, price_prediction, revenue_prediction
+from utils import sales_prediction, price_prediction, revenue_prediction, create_line_chart_breakevenpoint
 from semantic_kernel.kernel import Kernel
 
 class CSVForecasting:
@@ -68,3 +68,18 @@ class CSVForecasting:
 
         output = revenue_prediction(csv, dependent, independent, time)
         return output
+    @sk_function(
+    description="Calculate break-even point based on revenue values with timestamp and initial investment",
+    name="get_break_even_point"
+    )
+    async def get_break_even_point(self, context: sk.SKContext) -> str:
+        csv_path = context.variables.get("csv_path")
+        initial_investments = context.variables.get("initial_investment")
+        independent_variable = context.variables.get("independent_variable")
+
+        initial_investment = initial_investments[1]
+        independent_variable = independent_variable[1]
+        csv = csv_path[1]
+
+        point = create_line_chart_breakevenpoint(csv, initial_investment, independent_variable)        
+        return point
